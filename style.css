@@ -111,3 +111,21 @@ footer {
         line-height: 1.6;
     }
 }
+
+/* --- SOCIAL ICONS --- */
+.social-icons {
+    margin-bottom: 1rem;
+}
+
+.social-icons a {
+    color: #ffffff;      /* Icon Color (White) */
+    font-size: 1.5rem;   /* Icon Size */
+    margin: 0 15px;      /* Spacing between icons */
+    transition: 0.3s;    /* Smooth hover effect */
+}
+
+/* Hover Effects */
+.social-icons a:hover {
+    color: #00d4ff;      /* Change to Cyan (or Yellow) when hovered */
+    transform: scale(1.2); /* Slightly grow the icon */
+}
