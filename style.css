@@ -78,7 +78,7 @@ h2 {
 footer {
     text-align: center;
     padding: 2rem;
-    background-color: #0a0a0a;
+    background-color: #000000;
     color: #777;
     font-size: 0.9rem;
 }
@@ -163,6 +163,25 @@ footer {
 
 /* Style the button itself for Dark Mode */
 .dark-mode #theme-toggle {
-    background-color: #00d4ff; /* Change button color in dark mode */
-    color: #121212;
+    background-color: #000000; /* Change button color in dark mode */
+    color: #ffffff;
+}
+
+.dark-mode footer {
+background-color: #ffffff;
+}
+
+.dark-mode footer .social-icons a {
+color: #000000;
+}
+
+.dark-mode .btn-download:hover {
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4); /* Neon Glow */
+}
+
+.dark-mode footer .social-icons a:hover {
+    color: #00d4ff;      /* Change to Cyan (or Yellow) when hovered */
+    transform: scale(1.2); /* Slightly grow the icon */
 }

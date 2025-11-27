@@ -7,8 +7,8 @@ document.getElementById('theme-toggle').addEventListener('click', function() {
     // Optional: Change the button text/icon when toggled
     const button = document.getElementById('theme-toggle');
     if (document.body.classList.contains('dark-mode')) {
-        button.innerHTML = '🌙 Dark Mode';
+        button.innerHTML = '🌙';
     } else {
-        button.innerHTML = '☀️ Light Mode';
+        button.innerHTML = '☀️';
     }
 });
